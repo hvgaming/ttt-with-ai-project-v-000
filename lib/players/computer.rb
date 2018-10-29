@@ -19,3 +19,4 @@ class Computer < Player
   end
    end
  end
+ end
