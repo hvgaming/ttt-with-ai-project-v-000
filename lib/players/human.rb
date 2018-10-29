@@ -5,3 +5,4 @@ class Human < Player
       gets.strip
     end
   end
+end
