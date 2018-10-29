@@ -1,4 +1,6 @@
+
 class Computer < Player
+  
     def move(board)
       move = nil
       
