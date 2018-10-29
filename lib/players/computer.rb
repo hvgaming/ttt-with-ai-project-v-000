@@ -6,7 +6,7 @@ class Computer < Player
       board.test_update(space, board.current_player)
       best_score[space] = -1 * move(board, depth + 1, {})
       board.reset_space_at(space)
-    
+    end
      best_move = best_score.max_by { |key, value| value }[0]
     highest_minimax_score = best_score.max_by { |key, value| value }[1]
      if depth == 0
