@@ -18,11 +18,7 @@ class Game
    def over?
     won? || draw?
   end
-  @howardbdev
 
-@board.turn_count.even? ? @player_1 : @player_2
-
- @hvgaming	Reply…
    def current_player
     @board.turn_count % 2 == 0 ? @player_1 : @player_2
   end
