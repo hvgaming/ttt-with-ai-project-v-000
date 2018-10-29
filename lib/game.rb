@@ -19,8 +19,6 @@ class Game
     won? || draw?
   end
   @howardbdev
-howardbdev on May 16  Member
-Use Integer#even? or Integer#odd?
 
 @board.turn_count.even? ? @player_1 : @player_2
 
